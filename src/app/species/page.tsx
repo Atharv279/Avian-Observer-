@@ -77,7 +77,7 @@ export default function SpeciesPage() {
                   />
                 </CardHeader>
                 <CardContent className="p-4">
-                  <CardTitle className="font-headline text-xl mb-1">{bird.name}</CardTitle>
+                  <CardTitle className="font-headline text-xl mb-1 break-words">{bird.name}</CardTitle>
                   <p className="text-sm text-muted-foreground italic">{bird.scientificName}</p>
                   <Badge variant="outline" className="mt-2">
                     {bird.conservationStatus}
