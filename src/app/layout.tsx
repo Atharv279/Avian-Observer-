@@ -3,6 +3,7 @@ import './globals.css';
 import { SidebarProvider, Sidebar, SidebarInset } from '@/components/ui/sidebar';
 import { AppSidebar } from '@/components/app-sidebar';
 import { Toaster } from '@/components/ui/toaster';
+import { AppHeader } from '@/components/app-header';
 
 export const metadata: Metadata = {
   title: 'Avian Observer',
@@ -29,7 +30,10 @@ export default function RootLayout({
           <Sidebar>
             <AppSidebar />
           </Sidebar>
-          <SidebarInset>{children}</SidebarInset>
+          <SidebarInset>
+            <AppHeader />
+            {children}
+          </SidebarInset>
         </SidebarProvider>
         <Toaster />
       </body>

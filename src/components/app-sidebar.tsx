@@ -8,14 +8,13 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
   SidebarContent,
-  SidebarTrigger,
   SidebarFooter,
   SidebarInput,
 } from '@/components/ui/sidebar';
 import { Logo } from '@/components/logo';
 import { Home, Compass, Feather, Image as ImageIcon, BookOpen, Bot, Search } from 'lucide-react';
-import { Button } from './ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
+import { useSidebar } from './ui/sidebar';
 
 const links = [
   { href: '/', label: 'Home', icon: Home },
@@ -28,18 +27,20 @@ const links = [
 
 export function AppSidebar() {
   const pathname = usePathname();
+  const { isMobile } = useSidebar();
 
   return (
     <>
       <SidebarHeader>
         <div className="flex items-center justify-between">
           <Logo />
-          <SidebarTrigger />
         </div>
-        <div className="relative">
-          <SidebarInput placeholder="Search..." />
-          <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-        </div>
+        {!isMobile && (
+          <div className="relative">
+            <SidebarInput placeholder="Search..." />
+            <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+          </div>
+        )}
       </SidebarHeader>
       <SidebarContent>
         <SidebarMenu>
