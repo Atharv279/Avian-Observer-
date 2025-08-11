@@ -49,7 +49,7 @@ export default function SpeciesPage() {
         <div className="relative">
           <Input
             placeholder="Search for a species..."
-            className="pr-10"
+            className="pl-10 pr-10"
             value={searchTerm}
             onChange={handleSearchChange}
           />
