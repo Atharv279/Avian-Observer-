@@ -1,6 +1,7 @@
+
 'use client';
 
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import {
   SidebarHeader,
@@ -27,7 +28,18 @@ const links = [
 
 export function AppSidebar() {
   const pathname = usePathname();
+  const router = useRouter();
   const { isMobile } = useSidebar();
+
+  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      const query = e.currentTarget.value;
+      if (query) {
+        router.push(`/species?q=${encodeURIComponent(query)}`);
+      }
+    }
+  };
+
 
   return (
     <>
@@ -37,7 +49,7 @@ export function AppSidebar() {
         </div>
         {!isMobile && (
           <div className="relative">
-            <SidebarInput placeholder="Search..." />
+            <SidebarInput placeholder="Search..." onKeyDown={handleSearch} />
             <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
           </div>
         )}

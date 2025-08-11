@@ -1,7 +1,10 @@
+
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { ArrowRight, Search } from 'lucide-react';
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardTitle, CardHeader } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -9,6 +12,17 @@ import { featuredBirds, guides, galleryPhotos } from '@/lib/placeholder-data';
 import { Badge } from '@/components/ui/badge';
 
 export default function Home() {
+  const router = useRouter();
+
+  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      const query = e.currentTarget.value;
+      if (query) {
+        router.push(`/species?q=${encodeURIComponent(query)}`);
+      }
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
@@ -34,6 +48,7 @@ export default function Home() {
                 placeholder="Search for a bird species..."
                 className="pr-10 text-black"
                 aria-label="Search for a bird species"
+                onKeyDown={handleSearch}
               />
               <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
             </div>
