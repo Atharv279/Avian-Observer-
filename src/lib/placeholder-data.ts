@@ -83,6 +83,340 @@ export const birds = [
       rangeMap: 'https://placehold.co/400x300.png',
       audioUrl: '#',
     },
+    {
+      "slug": "atlantic-puffin",
+      "name": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Atlantic Puffin is a compact, ocean-going seabird instantly recognizable by its black-and-white tuxedo plumage, orange legs, and bright multicolored bill that seems almost too large for its face. That famous bill is seasonal—during the breeding months it develops vivid plates of orange, yellow, and blue which are later shed, leaving a slimmer, duller profile for the winter at sea. Puffins are members of the auk family and are superbly adapted to a life split between sheer coastal cliffs and the open North Atlantic. Underwater they \"fly\" with their wings, using rapid strokes to chase sand eels, herring, and capelin, steering with their feet like rudders. At the surface they bob like little buoys, remarkably buoyant thanks to dense feathers and trapped air. On land their gait is endearingly awkward, yet they are agile on cliff ledges and can dig burrows using their feet and bill. Colonial nesters, puffins return to traditional breeding islands in late spring, often forming lifelong pair bonds and reusing the same burrow year after year. Courtship involves mutual billing and soft growls; inside the burrow, a single egg is laid and incubated by both parents. Adults commute tirelessly to sea and back, carrying strings of small fish crosswise in the bill aided by backward-pointing spines on the tongue and palate. Chicks (called pufflings) fledge at night, launching into darkness to avoid predators, and head directly out to sea where they learn to forage on their own. Puffins spend most of the year far from land, riding storms and swells with stoic resilience. Their populations have waxed and waned with fisheries management, climate-driven shifts in prey, and the historical toll of egging and hunting; conservation projects have successfully restored colonies in several regions by using decoys and audio playback to entice returning birds. While whimsical in appearance, puffins are tough, long-lived birds—individuals can surpass two decades—whose life histories are finely tuned to the rhythms of cold, productive northern waters. Seeing a puffin arrow in across a gale, stall, and land on a ledge with a clatter of feet is to witness a life perfectly adapted to both sea and stone.",
+      "habitat": "Breeds on grassy or rocky sea cliffs and offshore islands; winters on the open North Atlantic.",
+      "diet": "Small schooling fish such as sand eels, herring, and capelin; occasionally crustaceans.",
+      "behavior": "Dives and \"flies\" underwater; nests in burrows; highly colonial and site-faithful.",
+      "breeding": "Monogamous pairs raise one chick in a burrow dug into turf or soil on cliff tops.",
+      "conservationStatus": "Vulnerable",
+      "wingspan": "47–63 cm",
+      "length": "28–30 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "eurasian-hoopoe",
+      "name": "Eurasian Hoopoe",
+      "scientificName": "Upupa epops",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Eurasian Hoopoe is a striking, cinnamon-orange bird crowned with a dramatic, fan-shaped crest that it can raise and lower like a feathery sunburst. Bold black-and-white bands span the wings and tail, creating a butterfly-like effect in flight as the bird flutters low over fields and orchards. Its long, slender, slightly decurved bill is a precision tool for probing soil, leaf litter, and crevices for beetles, crickets, larvae, and other invertebrates. A hoopoe’s feeding technique is methodical: it walks, pauses, tilts its head, and stabs into the ground, levering prey out with deft flicks; it often tosses items into the air to re-grip before swallowing. Hoopoes favor warm, open landscapes dotted with scattered trees, stone walls, or ruins offering cavities for nesting. Their characteristic call—oop-oop-oop—carries across rural mornings and has inspired the bird’s onomatopoeic name in many languages. Nesting typically occurs in cavities in trees, cliffs, buildings, or nest boxes; they rarely bring much material, relying instead on the cavity itself. Females and nestlings possess a unique defense: a pungent secretion produced by the uropygial gland that repels predators and parasites and may have antibacterial properties. This compound can stain feathers and lends hoopoe nests a distinctive odor. Pairs raise broods of several chicks, with the male supplying much of the food early on; fledglings disperse quickly into open country. Migratory populations move between Eurasia and Africa, while others are resident across parts of the Mediterranean and South Asia. Revered in folklore and literature across continents, the hoopoe is associated with wisdom and travel; its unmistakable silhouette and crest make it a favorite among birders. Despite localized declines due to intensive agriculture and habitat loss, the species remains widespread, adaptable, and resilient in a mosaic of human-shaped landscapes, thriving wherever insects are plentiful and cavities are available.",
+      "habitat": "Open countryside, orchards, vineyards, parklands, and villages with available nest cavities.",
+      "diet": "Insects and larvae, especially beetles, crickets, ants; occasionally small reptiles and seeds.",
+      "behavior": "Ground-foraging probe feeder; raises crest when alarmed or displaying; undulating, fluttery flight.",
+      "breeding": "Cavity nester in trees, walls, or buildings; uses malodorous uropygial secretions as nest defense.",
+      "conservationStatus": "Least Concern",
+      "wingspan": "44–48 cm",
+      "length": "25–29 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "secretarybird",
+      "name": "Secretarybird",
+      "scientificName": "Sagittarius serpentarius",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Secretarybird is an unmistakable raptor of the African savanna, towering on crane-like legs with an eagle’s hooked bill and a crown of quill-like black plumes that spray from the back of the head. Its long stride and terrestrial hunting style set it apart from other birds of prey. Rather than stooping from on high, secretarybirds patrol grasslands on foot, covering kilometers each day with purposeful, springy steps, scanning for reptiles—especially snakes—as well as insects, rodents, and small birds. When prey is found, the bird delivers rapid, crushing stomps with remarkable precision, a behavior backed by powerful leg muscles and tendons that can withstand sudden impacts. The face is bare and orange-red around a piercing eye, framed by ash-gray plumage above and white below, with contrasting black flight feathers and thighs that form a striking “shorts” pattern. Pairs maintain large territories and build massive platform nests high in acacia trees, adding sticks year after year until the structure becomes substantial. Courtship involves soaring displays, mutual calling, and high-altitude chases; both partners incubate and feed the chicks. Despite their elegant appearance, secretarybirds are rugged survivors of open country, tolerating heat and long distances between water sources by obtaining moisture from prey and thermoregulating with open-wing postures. They are revered in many African cultures and appear on national emblems due to their reputation as snake-killers. However, widespread habitat loss, conversion of grasslands to agriculture, and human disturbance have driven population declines across much of their range. Conservation initiatives focus on retaining large tracts of intact savanna, reducing powerline collisions, and protecting nest trees. Watching a secretarybird break into a ground-covering run, crest streaming, is to witness an ancient hunting strategy honed by the open plains.",
+      "habitat": "Open savannas, grasslands, and lightly wooded plains across sub-Saharan Africa.",
+      "diet": "Snakes, lizards, insects, rodents, and small birds; occasionally carrion.",
+      "behavior": "Terrestrial predator that dispatches prey with rapid stomps; soars and roosts in trees.",
+      "breeding": "Pairs build large stick platforms in thorn trees; 1–3 chicks raised with shared duties.",
+      "conservationStatus": "Endangered",
+      "wingspan": "190–215 cm",
+      "length": "112–150 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "superb-lyrebird",
+      "name": "Superb Lyrebird",
+      "scientificName": "Menura novaehollandiae",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Superb Lyrebird of southeastern Australia is a master of sound, famed for its astonishing mimicry and ornate tail displayed by males during courtship. The male’s tail, composed of sixteen feathers including the iconic lyre-shaped outer pair, transforms into a shimmering canopy when fanned over his back as he sings from a display mound. Lyrebirds reproduce an entire forest soundscape: whistles of other songbirds, kookaburra cackles, wingbeats, and environmental noises like camera shutters, chainsaws, or car alarms—imitations that can be uncannily accurate. Their own vocal repertoire is rich as well, woven into extended performances that can last for minutes. On the forest floor they move deliberately, scratching through leaf litter with powerful feet to uncover beetles, spiders, worms, and larvae; their elongated claws act like rakes. Lyrebirds prefer dense, moist eucalypt forests and temperate rainforests where acoustics carry; they rely on complex understory for cover. The species is largely sedentary, with territories held year-round. Females build domed nests of sticks and moss, often positioned above ground in the protection of ferns or low branches; a single egg is the norm, and the female alone incubates and raises the chick. Despite their theatrical displays, lyrebirds can be shy, melting into vegetation when threatened, freezing statue-still until danger passes. Their populations are stable in protected habitats, though vulnerable to bushfire severity, habitat fragmentation, and the spread of invasive predators. Ecologically, lyrebirds act as ecosystem engineers: their habitual raking turns over massive quantities of leaf litter, influencing soil processes and reducing fuel loads. Encountering a lyrebird mid-performance—tail arched, body vibrating with layered sound—is a reminder that birdsong is both art and adaptation, honed by sexual selection and the acoustics of deep forest.",
+      "habitat": "Moist eucalypt forests and temperate rainforests with dense understory in southeastern Australia.",
+      "diet": "Ground-dwelling arthropods, worms, and larvae; occasionally small vertebrates.",
+      "behavior": "Elaborate vocal mimicry; males display on mounds with lyre-shaped tail fanned overhead.",
+      "breeding": "Female builds domed nest and raises a single chick without male assistance.",
+      "conservationStatus": "Least Concern",
+      "wingspan": "70–80 cm",
+      "length": "80–100 cm (male with tail)",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "shoebill",
+      "name": "Shoebill",
+      "scientificName": "Balaeniceps rex",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Shoebill of East and Central Africa is a monumental wetland bird whose colossal, clog-shaped bill seems more prehistoric than modern. Slate-gray and statuesque, it stands motionless for long stretches among papyrus and floating vegetation, embodying the patience of an ambush predator. That outsized bill, ridged and ending in a wicked hook, is a specialized trap for lungfish, tilapia, and catfish; when prey surfaces for air, the shoebill executes a sudden, explosive lunge called a “collapse,” bill agape, engulfing water, plants, and fish in a single, messy scoop before sorting the catch. Eyes are large and forward-facing, lending a keen, almost mammalian intensity to its gaze. Despite its size, the shoebill can fly with slow, powerful wingbeats, though it prefers short commutes within marsh complexes. Pairs maintain territories within extensive swamps, building bulky nests of vegetation on floating platforms. Clutches are small—usually two eggs—but siblicide is common; the older chick often monopolizes food, a harsh adaptation to the unpredictability of fish availability. Adults cool themselves and their young with gular fluttering and careful shading. Human fascination with shoebills is longstanding, yet the species is sensitive to disturbance; tourists and fishers approaching too closely can cause nest abandonment. Habitat degradation, burning of marshes, hydrological changes, and capture for trade have driven declines, earning the species a threatened status. Conservation efforts prioritize community-based protection of wetlands and guidelines for low-impact ecotourism. A face-to-face encounter with a shoebill often yields the legendary “death stare,” but the bird’s stillness masks a hunter exquisitely attuned to the rhythms of swamp life—an apex predator of quiet water, surviving on patience and precision.",
+      "habitat": "Extensive freshwater marshes, papyrus swamps, and floodplains in the Nile and Congo basins.",
+      "diet": "Primarily lungfish; also catfish, tilapia, frogs, and small reptiles.",
+      "behavior": "Ambush hunter employing explosive lunges; spends long periods motionless; territorial pairs.",
+      "breeding": "Builds floating platform nests; typically two eggs with frequent siblicide; biparental care.",
+      "conservationStatus": "Vulnerable",
+      "wingspan": "220–260 cm",
+      "length": "100–140 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "scarlet-macaw",
+      "name": "Scarlet Macaw",
+      "scientificName": "Ara macao",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Scarlet Macaw is a flagship parrot of the Neotropics, a long-tailed blaze of red offset by panels of yellow and blue that flash across tropical skies. Traveling in pairs or small, noisy groups, macaws commute between roost trees, clay licks, and fruiting canopies, their harsh calls carrying for kilometers. Built for a life among giant emergent trees, they wield massive, hooked bills capable of cracking hard seeds and fruits that deter most other animals; the tongue is muscular and dexterous, assisting with manipulation. Zygodactyl feet—two toes forward, two back—function like hands for climbing and grasping. Social bonds are strong and lifespans long; pairs may remain together for decades, coordinating flights and foraging with impressive cohesion. Nesting takes place in tree cavities high above the forest floor; competition for suitable cavities is intense, and scarcity can limit populations even where food is plentiful. In parts of Amazonia and Central America, macaws visit exposed riverbank clay licks to ingest mineral-rich soils, thought to buffer dietary toxins from unripe seeds. Their role as seed dispersers is significant, influencing forest composition and regeneration over large distances through movements and selective feeding. The species has suffered from habitat loss, selective logging of nest trees, and trapping for the pet trade, leading to local declines and fragmented distributions outside core strongholds. Community-based protection, nest-box programs, and ecotourism have helped some populations rebound. Encountering a scarlet macaw in flight—sunlight catching its wings, tail streaming like a banner—captures the exuberance and complexity of tropical forests, where color is currency and sound is how you keep track of your friends in the canopy.",
+      "habitat": "Lowland tropical rainforests, gallery forests, and forest edges; roosts in tall emergent trees.",
+      "diet": "Seeds, nuts, and fruits from large canopy trees; clay for mineral supplementation.",
+      "behavior": "Strong-flying, vocal; travels in bonded pairs or small groups; uses bill and feet for climbing.",
+      "breeding": "Cavity nester high in large trees; pairs raise 1–3 young with extended parental care.",
+      "conservationStatus": "Least Concern",
+      "wingspan": "90–110 cm",
+      "length": "81–96 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "common-kingfisher",
+      "name": "Common Kingfisher",
+      "scientificName": "Alcedo atthis",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Common Kingfisher is a jewel of riverbanks and ponds, its compact shape cloaked in electric blue-green above and warm chestnut-orange below, with a dagger of a bill poised for the plunge. Perched low over water on reeds, branches, or posts, it watches with laser focus for the flick of a minnow. When prey swims into position, the bird snaps into action—diving headfirst, eyes protected by a transparent nictitating membrane, wings tucked tight, body transformed into a streamlined missile. It emerges, shakes off droplets, and returns to the perch to batter and swallow the fish headfirst. Despite its vibrant colors, the kingfisher can be surprisingly difficult to detect until it flashes down a stream with rapid, whirring wingbeats and a sharp, piping call. Territories are linear and closely tied to water clarity, prey availability, and suitable banks for nesting. Pairs excavate burrows with their feet and bills into vertical, sandy banks, tunneling for up to a meter before hollowing out a chamber free of nesting material. Multiple broods are common in good years. Because small fish are sensitive to pollution and siltation, kingfishers serve as indicators of stream health; population dips often signal degraded waterways. Cold winters can also take a toll when shallow waters freeze, limiting access to prey. Conservation measures that restore riparian vegetation, reduce runoff, and maintain natural banks benefit kingfishers and a host of other aquatic life. Watching one balance on a reed, tail flicking, head swiveling in micro-adjustments, is to witness the distilled focus of a specialist that has married color and precision to the pulse of running water.",
+      "habitat": "Clear, slow-moving streams, rivers, ponds, and canals with vegetated banks and perches.",
+      "diet": "Small fish, aquatic insects, and crustaceans captured by plunge-diving.",
+      "behavior": "Solitary and territorial; hunts from low perches; rapid, direct flight along waterways.",
+      "breeding": "Excavates tunnel nests in sandy banks; 5–7 eggs per clutch; multiple broods possible.",
+      "conservationStatus": "Least Concern",
+      "wingspan": "24–26 cm",
+      "length": "16–17 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "andean-condor",
+      "name": "Andean Condor",
+      "scientificName": "Vultur gryphus",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Andean Condor is one of the world’s largest flying birds, a black-and-white titan that rules the air on wings broad as doors. Males wear a distinctive fleshy comb and a white ruff at the base of the neck, giving them a regal, archaic look. Condors are masters of energy economy: they ride thermals and mountain updrafts with minimal flapping, scanning the vast Andean landscapes and adjacent coasts for carcasses. As obligate scavengers, they locate food visually and by following other scavengers; their bald head is a hygienic adaptation, reducing contamination while feeding deep inside carcasses. Social hierarchies at carcasses are strict, with dominant individuals displacing others until satiated. Pairs nest on inaccessible ledges and cliffs, often reusing sites for decades; productivity is low, with a single egg and prolonged parental care, but lifespans are extraordinary, potentially surpassing 60 years. The condor’s ecological role is vital: by rapidly removing carrion, they limit disease spread and recycle nutrients back into ecosystems. Threats include poisoning from contaminated carcasses, collision with power lines, and persecution based on livestock myths. Conservation efforts combine community outreach, anti-poisoning campaigns, and releases from rehabilitation programs. Watching an Andean Condor tilt its wings and slide along a cliff face, barely moving yet traversing kilometers in minutes, is to feel gravity renegotiated. In that effortless glide lies a pact with the wind, honed over eons where mountains sculpt the air itself.",
+      "habitat": "High Andean mountains, open puna and steppe, coastal cliffs; roosts and nests on ledges.",
+      "diet": "Carrion from wild ungulates and livestock; occasionally marine carcasses along coasts.",
+      "behavior": "Soaring scavenger using thermals and orographic lift; highly social at roosts and carcasses.",
+      "breeding": "Lays a single egg on cliff ledges; very slow reproduction with extended care and long intervals.",
+      "conservationStatus": "Vulnerable",
+      "wingspan": "270–320 cm",
+      "length": "100–130 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "green-peafowl",
+      "name": "Green Peafowl",
+      "scientificName": "Pavo muticus",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Green Peafowl is a magnificent pheasant native to Southeast Asia, displaying iridescent green and gold plumage that shimmers in sunlight. Males, known as peacocks, carry elongated upper tail coverts adorned with eye-like ocelli, which they fan into a resplendent display during courtship. Unlike their Indian cousins, green peafowl have a more upright stance and long legs adapted for open habitats. They inhabit grasslands, forest edges, and river valleys, often near human settlements but preferring undisturbed areas for breeding. These birds are omnivorous, feeding on seeds, grains, fruits, small reptiles, amphibians, and insects, using their strong beak to forage on the ground. Breeding season triggers dramatic male displays: a full tail fan, shimmering colors, and a vibrating rustle designed to catch a peahen’s eye. Females, in contrast, are more cryptic in browns and greens for camouflage while nesting. The nest is a simple scrape in the ground, hidden in tall grass or underbrush, where the peahen incubates a clutch of 3–6 eggs for nearly a month. The species is diurnal and wary; alarm calls are loud, resonant notes that alert others to predators. Once widespread, the green peafowl has declined sharply due to hunting for meat and feathers, habitat loss, and disturbance. Populations survive in protected areas where enforcement is strong, such as in Myanmar, Thailand, Cambodia, and Vietnam. Conservation programs focus on reducing hunting, restoring grasslands, and community education to foster coexistence. Observing a green peafowl striding across a sunlit clearing, train trailing like a jeweled river, is to glimpse an ancient spectacle that has captivated humans for centuries.",
+      "habitat": "Open forests, grasslands, and river valleys in Southeast Asia.",
+      "diet": "Seeds, grains, fruits, insects, small reptiles, and amphibians.",
+      "behavior": "Ground-foraging omnivore; males display large train during courtship.",
+      "breeding": "Ground nest with 3–6 eggs; female incubates and raises young alone.",
+      "conservationStatus": "Endangered",
+      "wingspan": "140–160 cm",
+      "length": "180–300 cm (male including train)",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "white-bellied-sea-eagle",
+      "name": "White-bellied Sea Eagle",
+      "scientificName": "Haliaeetus leucogaster",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The White-bellied Sea Eagle is a commanding raptor of coastal and freshwater habitats across Southeast Asia, Australia, and the western Pacific. With a gleaming white head, breast, and underparts contrasting against slate-gray wings and back, it is unmistakable in flight, where long, broad wings form a shallow ‘V’ and the tail is short and wedge-shaped. These eagles are opportunistic hunters and scavengers, taking fish, waterbirds, turtles, and carrion; they are also adept at piracy, harrying other birds until they drop their catch. Breeding pairs maintain large territories along shorelines, rivers, and estuaries, where they construct enormous stick nests high in trees or on cliffs, adding material year after year until the structures become substantial platforms. Courtship includes aerial acrobatics—mutual soaring, talon grappling, and dramatic dives. Once eggs are laid, both parents share incubation and feeding duties, fiercely defending the nest from intruders. Sea eagles are long-lived, often forming lifelong pair bonds, and may use the same nest site for decades. Their loud, goose-like cackling calls carry far over water and are often the first sign of their presence. Conservation status is generally secure, but localized declines occur due to habitat loss, pollution, and human disturbance at nest sites. Protection of riparian and coastal habitats is crucial for sustaining their populations. To see a white-bellied sea eagle sweeping low over turquoise shallows before lifting skyward with a wriggling fish is to witness power and grace seamlessly combined.",
+      "habitat": "Coasts, large rivers, lakes, and estuaries across Southeast Asia and Australasia.",
+      "diet": "Fish, waterbirds, turtles, mammals, and carrion.",
+      "behavior": "Powerful hunter and scavenger; often steals prey from other birds.",
+      "breeding": "Builds large stick nests in trees or cliffs; 1–2 eggs; biparental care.",
+      "conservationStatus": "Least Concern",
+      "wingspan": "180–220 cm",
+      "length": "70–85 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "greater-sage-grouse",
+      "name": "Greater Sage-Grouse",
+      "scientificName": "Centrocercus urophasianus",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Greater Sage-Grouse is a large, ground-dwelling bird of the sagebrush steppe in western North America, celebrated for its elaborate spring mating displays. Males gather on leks—traditional display grounds—where they fan spiky tail feathers, puff out snowy white chest ruffs, and inflate twin yellow air sacs with a popping sound that resonates across the prairie. Females, more cryptically patterned in mottled browns, visit leks to select mates but otherwise remain solitary during the breeding season. Sage-grouse are obligate sagebrush specialists, relying on this plant for cover and food, especially in winter when their diet consists almost entirely of sagebrush leaves. Insects and forbs are important for chicks during summer. Nests are shallow scrapes concealed under sagebrush, lined with grasses and feathers; clutches average 7–9 eggs. Chicks are precocial, leaving the nest soon after hatching to forage with the hen. These birds are strong walkers but weak fliers, preferring to escape danger by running. Populations have plummeted due to habitat loss, fragmentation, and degradation from energy development, invasive plants, and altered fire regimes. Conservation efforts focus on protecting large, contiguous tracts of sagebrush habitat, restoring degraded areas, and managing lek disturbance. The sage-grouse is an indicator species for the health of the sagebrush ecosystem, and its survival is intertwined with that of many other species adapted to this unique biome.",
+      "habitat": "Sagebrush steppe in western North America.",
+      "diet": "Sagebrush leaves in winter; insects and forbs in summer, especially for chicks.",
+      "behavior": "Males perform elaborate lek displays; females select mates and raise chicks alone.",
+      "breeding": "Ground nest under sagebrush; 7–9 eggs; single brood per season.",
+      "conservationStatus": "Near Threatened",
+      "wingspan": "90–100 cm",
+      "length": "60–75 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "black-necked-crane",
+      "name": "Black-necked Crane",
+      "scientificName": "Grus nigricollis",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Black-necked Crane is a graceful, high-altitude bird found on the Tibetan Plateau and neighboring mountain valleys. Adorned in soft gray plumage with a contrasting black head, neck, and tail, it moves with stately poise across alpine meadows and wetlands. A red crown patch adds a splash of color, especially vivid during the breeding season. These cranes are migratory, breeding in summer in wetlands above 3,000 meters and wintering in lower valleys, including Bhutan and parts of India. Courtship involves synchronized dances, wing-flapping, leaping, and the duet-like unison calls that are hallmarks of crane bonding. Nests are mounds of vegetation built in shallow water or on marshy ground, where 1–2 eggs are laid. Diet is omnivorous, consisting of roots, tubers, grains, insects, small vertebrates, and occasionally waste grain in agricultural fields. The species holds cultural significance in Bhutanese and Tibetan traditions, where it symbolizes longevity and peace. Threats include wetland drainage, infrastructure development, and disturbance at breeding and wintering sites. Conservation measures, such as the designation of protected areas and community-based awareness programs, have helped stabilize some populations. Watching a pair of black-necked cranes trumpet against the backdrop of snow-capped peaks is an experience that fuses wild beauty with cultural heritage.",
+      "habitat": "High-altitude wetlands, marshes, and alpine meadows; winters in lower valleys.",
+      "diet": "Roots, tubers, grains, insects, and small vertebrates.",
+      "behavior": "Migratory; performs elaborate pair dances and unison calls.",
+      "breeding": "Builds mound nests in wetlands; usually lays 1–2 eggs.",
+      "conservationStatus": "Vulnerable",
+      "wingspan": "200–230 cm",
+      "length": "139–140 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "marabou-stork",
+      "name": "Marabou Stork",
+      "scientificName": "Leptoptilos crumenifer",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Marabou Stork is a towering wader of sub-Saharan Africa, instantly recognizable by its bald, pinkish head, massive dagger-shaped bill, and pendulous throat pouch. Standing up to 1.5 meters tall with a wingspan exceeding 3 meters, it ranks among the largest storks. Adapted for both scavenging and hunting, marabous often gather at carcasses alongside vultures, using their formidable bills to tear through hides and tendons. Their bare head and neck are hygienic adaptations, minimizing feather fouling while feeding deep within carrion. Beyond scavenging, marabous hunt for fish, frogs, small mammals, and even young birds, particularly during breeding season when protein demands are high. They are often seen patrolling grasslands, wetlands, and garbage dumps, exploiting a wide range of food sources. In flight, they soar with remarkable grace for their size, necks retracted and wings broad, using thermals to travel long distances with minimal effort. Marabous nest in colonies, often mixed with other waterbirds, constructing large stick platforms high in trees or on cliffs. The throat pouch, while not used for storing food, plays a role in courtship display—males inflate it during pair interactions. Breeding coincides with dry seasons in many regions, ensuring food availability for growing chicks. Culturally, the bird’s stark appearance has earned it nicknames like “undertaker bird,” yet its ecological role as a cleaner of landscapes is invaluable, preventing the spread of disease by consuming carrion. Populations are generally stable but are impacted locally by wetland drainage, persecution, and pollution. To watch a marabou stork effortlessly ride a thermal, then descend in a slow spiral to join vultures at a carcass, is to witness a master of opportunism and survival.",
+      "habitat": "Wetlands, grasslands, savannas, urban dumps, and riverbanks across sub-Saharan Africa.",
+      "diet": "Carrion, fish, frogs, small mammals, reptiles, and birds.",
+      "behavior": "Scavenger and hunter; soars using thermals; nests colonially in tall trees or cliffs.",
+      "breeding": "Large stick nests; 2–3 eggs; both parents incubate and feed young.",
+      "conservationStatus": "Least Concern",
+      "wingspan": "225–320 cm",
+      "length": "120–150 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "lilac-breasted-roller",
+      "name": "Lilac-breasted Roller",
+      "scientificName": "Coracias caudatus",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Lilac-breasted Roller is a jewel-toned bird of the African savannas, celebrated for its spectacular colors and acrobatic flight displays. Its plumage blends turquoise, green, blue, and violet, with a lilac breast that shades into rusty orange at the flanks. Rollers are named for their aerial courtship maneuvers: steep dives, rolls, and sudden twists accompanied by harsh calls, designed to impress mates and deter rivals. These birds favor open habitats with scattered trees or poles for perching, using these vantage points to scan for insects, small reptiles, and amphibians. They swoop down in a direct, forceful flight to capture prey, returning to the perch to consume it. Lilac-breasted rollers are territorial, often perching conspicuously along roadsides and in clearings, making them easy to spot. Nesting usually takes place in natural tree cavities or abandoned woodpecker holes; they lay 2–4 eggs, with both parents sharing incubation and feeding duties. Their vivid colors play no role in camouflage—predators are deterred more by vigilance and aggressive mobbing than concealment. These rollers are often the subject of photography and ecotourism, their brilliant hues seeming almost unreal in sunlight. While their populations are stable, they can be affected by the loss of large trees for nesting and perching, as well as pesticide use that reduces prey abundance. In local cultures, they are sometimes considered symbols of peace or good fortune. Watching a lilac-breasted roller launch from a treetop into a display flight, wings flashing electric blue, is to see pure vibrancy set in motion.",
+      "habitat": "Open woodland, savanna, and bushveld with scattered trees across sub-Saharan Africa.",
+      "diet": "Large insects, lizards, small snakes, and amphibians.",
+      "behavior": "Perches conspicuously; captures prey in aerial sallies; performs acrobatic display flights.",
+      "breeding": "Nests in tree cavities; 2–4 eggs; both parents incubate and feed young.",
+      "conservationStatus": "Least Concern",
+      "wingspan": "50–58 cm",
+      "length": "28–30 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "resplendent-quetzal",
+      "name": "Resplendent Quetzal",
+      "scientificName": "Pharomachrus mocinno",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Resplendent Quetzal, native to the cloud forests of Central America, is among the most dazzling birds in the world. Males sport shimmering emerald-green plumage and a vibrant crimson breast, crowned by a helmet-like crest of fine feathers. During breeding season, they grow spectacular twin tail plumes that can extend over 60 cm beyond the body, transforming them into ethereal figures drifting among the misty canopy. These feathers, along with the quetzal’s association with the Mesoamerican god Quetzalcoatl, have made the bird a potent cultural symbol for centuries. Quetzals feed primarily on wild fruits, especially those of laurel trees, but also take insects, small frogs, and lizards. Their feeding helps disperse seeds throughout the forest, making them important ecological players. They nest in cavities excavated in rotting trunks by woodpeckers or themselves, with both sexes sharing incubation of 2 eggs. Quetzals are shy and sensitive to disturbance, often retreating into dense foliage at the first sign of danger. Deforestation and habitat fragmentation are their primary threats, as their specialized cloud forest habitat is easily degraded by logging and agriculture. Many protected reserves now exist within their range, and eco-tourism centered around quetzal-watching has helped incentivize conservation. Seeing a resplendent quetzal in the wild, tail streamers trailing like green ribbons through shafts of cloud-filtered light, is a transcendent experience that connects nature’s artistry to ancient myth.",
+      "habitat": "Montane cloud forests from southern Mexico to western Panama.",
+      "diet": "Wild fruits, especially laurels; insects, small amphibians, and reptiles.",
+      "behavior": "Solitary or in pairs; shy; perches quietly in mid-canopy; important seed disperser.",
+      "breeding": "Cavity nester; both sexes incubate and feed chicks; males grow long tail plumes in breeding season.",
+      "conservationStatus": "Near Threatened",
+      "wingspan": "61–70 cm",
+      "length": "36–40 cm (male up to 100 cm with tail)",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    },
+    {
+      "slug": "kakapo",
+      "name": "Kakapo",
+      "scientificName": "Strigops habroptilus",
+      "image": "https://placehold.co/800x600.png",
+      "images": [
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png",
+        "https://placehold.co/600x400.png"
+      ],
+      "description": "The Kakapo, or night parrot, is a large, flightless, nocturnal parrot endemic to New Zealand and one of the rarest birds on Earth. Covered in mossy green plumage mottled with brown and yellow, it blends seamlessly with forest vegetation. Its soft feathers, adapted for silence, and strong, earthy scent make it unique among parrots. Kakapos are herbivores, feeding on leaves, roots, bark, fruits, and seeds. Historically widespread, they were driven to the brink of extinction by habitat destruction and introduced predators such as stoats, rats, and cats. By the 1990s, only a few dozen remained, prompting an intensive recovery effort that continues today. The species is unusual in breeding biology: it is lek-breeding, with males gathering at traditional sites to produce low-frequency “booming” calls that can travel several kilometers to attract females. Breeding is irregular, occurring in years when native fruiting trees like rimu produce abundant crops. Females lay 1–4 eggs in burrows or natural cavities and raise the chicks alone. Kakapos are long-lived, with lifespans potentially exceeding 90 years. Conservation has involved translocating birds to predator-free offshore islands, intensive monitoring, supplementary feeding, and genetic management. The population, though still critically endangered, is now slowly increasing thanks to these efforts. Encountering a kakapo in the wild is a rare privilege, offering a glimpse into an ancient avian lineage that has survived against staggering odds.",
+      "habitat": "Forests and scrublands on predator-free offshore islands in New Zealand.",
+      "diet": "Leaves, stems, roots, bark, fruits, and seeds.",
+      "behavior": "Nocturnal, flightless; males boom to attract mates; excellent climber.",
+      "breeding": "Lek breeder; females incubate and raise young alone; breeding tied to fruiting events.",
+      "conservationStatus": "Critically Endangered",
+      "wingspan": "N/A (flightless)",
+      "length": "58–64 cm",
+      "rangeMap": "https://placehold.co/400x300.png",
+      "audioUrl": "#"
+    }
+
 ];
 
 export const featuredBirds = birds.slice(0, 4);
@@ -141,4 +475,20 @@ export const galleryPhotos = [
   { id: 10, src: 'https://placehold.co/500x500.png', alt: 'Peregrine Falcon' },
   { id: 11, src: 'https://placehold.co/500x500.png', alt: 'Great Horned Owl' },
   { id: 12, src: 'https://placehold.co/500x500.png', alt: 'Indigo Bunting' },
+  { id: 13, src: 'https://placehold.co/500x500.png', alt: 'Atlantic Puffin' },
+  { id: 14, src: 'https://placehold.co/500x500.png', alt: 'Eurasian Hoopoe' },
+  { id: 15, src: 'https://placehold.co/500x500.png', alt: 'Secretarybird' },
+  { id: 16, src: 'https://placehold.co/500x500.png', alt: 'Superb Lyrebird' },
+  { id: 17, src: 'https://placehold.co/500x500.png', alt: 'Shoebill' },
+  { id: 18, src: 'https://placehold.co/500x500.png', alt: 'Scarlet Macaw' },
+  { id: 19, src: 'https://placehold.co/500x500.png', alt: 'Common Kingfisher' },
+  { id: 20, src: 'https://placehold.co/500x500.png', alt: 'Andean Condor' },
+  { id: 21, src: 'https://placehold.co/500x500.png', alt: 'Green Peafowl' },
+  { id: 22, src: 'https://placehold.co/500x500.png', alt: 'White-bellied Sea Eagle' },
+  { id: 23, src: 'https://placehold.co/500x500.png', alt: 'Greater Sage-Grouse' },
+  { id: 24, src: 'https://placehold.co/500x500.png', alt: 'Black-necked Crane' },
+  { id: 25, src: 'https://placehold.co/500x500.png', alt: 'Marabou Stork' },
+  { id: 26, src: 'https://placehold.co/500x500.png', alt: 'Lilac-breasted Roller' },
+  { id: 27, src: 'https://placehold.co/500x500.png', alt: 'Resplendent Quetzal' },
+  { id: 28, src: 'https://placehold.co/500x500.png', alt: 'Kakapo' }
 ];
