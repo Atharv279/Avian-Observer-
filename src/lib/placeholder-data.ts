@@ -378,7 +378,7 @@ export const birds = [
       "slug": "resplendent-quetzal",
       "name": "Resplendent Quetzal",
       "scientificName": "Pharomachrus mocinno",
-      "image": "https://placehold.co/800x600.png",
+      "image": "https://placehold.co/800x600.png",  
       "images": [
         "https://placehold.co/600x400.png",
         "https://placehold.co/600x400.png",
