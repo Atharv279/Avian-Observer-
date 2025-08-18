@@ -35,7 +35,7 @@ export default function ContactPage() {
             <div>
               <h3 className="font-semibold text-lg">Phone</h3>
               <p className="text-muted-foreground">Our phone lines are open during business hours.</p>
-              <p>+1 (555) 123-4567</p>
+              <p>+91 98765 43210</p>
             </div>
           </div>
 
@@ -43,7 +43,7 @@ export default function ContactPage() {
             <MapPin className="h-6 w-6 text-primary mt-1" />
             <div>
               <h3 className="font-semibold text-lg">Mailing Address</h3>
-              <p className="text-muted-foreground">123 Aviary Avenue, Birdland, CA 98765</p>
+              <p className="text-muted-foreground">123 Feather Lane, Avian Point, CA 94952</p>
             </div>
           </div>
         </CardContent>
