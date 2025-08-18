@@ -15,7 +15,6 @@ import {
 } from '@/components/ui/sidebar';
 import { Logo } from '@/components/logo';
 import { Home, Compass, Feather, Image as ImageIcon, BookOpen, Bot, Search, Info, Mail, ShieldCheck } from 'lucide-react';
-import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 import { useSidebar } from './ui/sidebar';
 
 const mainLinks = [
@@ -101,16 +100,6 @@ export function AppSidebar() {
             </SidebarMenuItem>
           ))}
         </SidebarMenu>
-        <div className="flex items-center gap-3 rounded-md p-2 bg-muted/50 w-full">
-           <Avatar className="h-9 w-9">
-              <AvatarImage src="https://placehold.co/40x40.png" alt="User Avatar" />
-              <AvatarFallback>AO</AvatarFallback>
-            </Avatar>
-            <div className="flex flex-col text-sm">
-                <span className="font-semibold">Enthusiast</span>
-                <span className="text-muted-foreground">Guest User</span>
-            </div>
-        </div>
       </SidebarFooter>
     </>
   );
