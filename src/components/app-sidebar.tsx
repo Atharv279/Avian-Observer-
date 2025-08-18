@@ -11,13 +11,14 @@ import {
   SidebarContent,
   SidebarFooter,
   SidebarInput,
+  SidebarSeparator,
 } from '@/components/ui/sidebar';
 import { Logo } from '@/components/logo';
-import { Home, Compass, Feather, Image as ImageIcon, BookOpen, Bot, Search } from 'lucide-react';
+import { Home, Compass, Feather, Image as ImageIcon, BookOpen, Bot, Search, Info, Mail, ShieldCheck } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 import { useSidebar } from './ui/sidebar';
 
-const links = [
+const mainLinks = [
   { href: '/', label: 'Home', icon: Home },
   { href: '/species', label: 'Species Guide', icon: Feather },
   { href: '/guides', label: 'Birding Guides', icon: BookOpen },
@@ -25,6 +26,12 @@ const links = [
   { href: '/gallery', label: 'Gallery', icon: ImageIcon },
   { href: '/identify', label: 'AI Identifier', icon: Bot },
 ];
+
+const secondaryLinks = [
+    { href: '/about', label: 'About Us', icon: Info },
+    { href: '/contact', label: 'Contact Us', icon: Mail },
+    { href: '/privacy', label: 'Privacy Policy', icon: ShieldCheck },
+]
 
 export function AppSidebar() {
   const pathname = usePathname();
@@ -56,7 +63,7 @@ export function AppSidebar() {
       </SidebarHeader>
       <SidebarContent>
         <SidebarMenu>
-          {links.map((link) => (
+          {mainLinks.map((link) => (
             <SidebarMenuItem key={link.href}>
               <Link href={link.href} className="w-full">
                 <SidebarMenuButton
@@ -75,8 +82,26 @@ export function AppSidebar() {
           ))}
         </SidebarMenu>
       </SidebarContent>
-      <SidebarFooter>
-        <div className="flex items-center gap-3 rounded-md p-2 bg-muted/50">
+      <SidebarFooter className='flex-col items-start gap-4'>
+        <SidebarSeparator />
+         <SidebarMenu>
+            {secondaryLinks.map((link) => (
+            <SidebarMenuItem key={link.href}>
+              <Link href={link.href} className="w-full">
+                <SidebarMenuButton
+                  isActive={pathname.startsWith(link.href)}
+                  tooltip={{
+                    children: link.label,
+                  }}
+                >
+                  <link.icon className="h-5 w-5" />
+                  <span>{link.label}</span>
+                </SidebarMenuButton>
+              </Link>
+            </SidebarMenuItem>
+          ))}
+        </SidebarMenu>
+        <div className="flex items-center gap-3 rounded-md p-2 bg-muted/50 w-full">
            <Avatar className="h-9 w-9">
               <AvatarImage src="https://placehold.co/40x40.png" alt="User Avatar" />
               <AvatarFallback>AO</AvatarFallback>

@@ -28,7 +28,7 @@ export default function Home() {
       <main className="flex-1">
         <section className="relative w-full h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
           <Image
-            src="https://placehold.co/1600x900.png"
+            src="/image/EagleFocus.gif"
             alt="A serene bird-watching scene"
             layout="fill"
             objectFit="cover"
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
                <Image
-                  src="https://placehold.co/600x400.png"
+                  src="/image/Migration.png"
                   alt="Binoculars looking out over a forest"
                   layout="fill"
                   objectFit="cover"
