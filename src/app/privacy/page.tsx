@@ -14,49 +14,62 @@ export default function PrivacyPolicyPage() {
       <Card>
         <CardHeader>
           <CardTitle className="font-headline flex items-center gap-3">
-            <Shield className="h-6 w-6 text-primary" /> Our Commitment to Privacy
+            <Shield className="h-6 w-6 text-primary" /> Our Commitment to Your Privacy
           </CardTitle>
         </CardHeader>
         <CardContent className="prose dark:prose-invert max-w-none">
           <p>
-            This Privacy Policy describes how Avian Observer ("we", "us", or "our") collects, uses, and shares information about you when you use our website and services (the "Services").
+            At Avian Observer ("we," "us," or "our"), your privacy is a top priority. This Privacy Policy explains how we collect, use, and protect your information when you use our website and services (the "Services"). We’re committed to transparency, so we’ve kept this policy straightforward—because your trust matters to us.
           </p>
 
           <h2>Information We Collect</h2>
           <p>
-            We collect information you provide directly to us, such as when you create an account, submit a bird sighting, or contact us for support. This may include your name, email address, location data, and any photos you upload. We also collect technical information automatically, such as your IP address and browser type.
+            To provide you with the best experience, we collect certain information, including:
           </p>
+          <p><strong>Information You Provide:</strong> When you create an account, log a bird sighting, or reach out for support, we may ask for details like your name, email address, location data, and any photos you upload.</p>
+          <p><strong>Technical Data:</strong> We automatically gather some technical details (like your IP address and browser type) to ensure smooth operation and security.</p>
+          
 
           <h2>How We Use Your Information</h2>
           <p>
-            We use the information we collect to:
+            Your data helps us:
           </p>
           <ul>
-            <li>Provide, maintain, and improve our Services.</li>
-            <li>Personalize your experience.</li>
-            <li>Communicate with you, including responding to your inquiries.</li>
-            <li>Power our AI Bird Identifier feature.</li>
-            <li>Monitor and analyze trends, usage, and activities in connection with our Services.</li>
+            <li>✔ Deliver, enhance, and personalize your experience with our Services.</li>
+            <li>✔ Power cool features like our AI Bird Identifier.</li>
+            <li>✔ Communicate with you (like responding to your questions).</li>
+            <li>✔ Analyze trends to improve our community and tools.</li>
           </ul>
 
-          <h2>Information Sharing</h2>
+          <h2>Sharing Your Information</h2>
           <p>
-            We do not share your personal information with third parties except as described in this Privacy Policy, such as with your consent, with service providers who perform services for us, or for legal reasons. Sighting information, including photos and general location, may be shared publicly within our community gallery and species maps.
+            We respect your privacy and never sell your personal data. However, in some cases, we may share information:
+          </p>
+          <ul>
+              <li><strong>With Your Consent</strong> (if you choose to share sightings publicly).</li>
+              <li><strong>With Trusted Service Providers</strong> (who help us operate securely).</li>
+              <li><strong>For Legal Reasons</strong> (if required by law).</li>
+          </ul>
+          <p>
+            Publicly shared sightings (photos and general locations) may appear in our community gallery or species maps—so fellow bird lovers can celebrate your discoveries!
           </p>
 
-          <h2>Your Choices</h2>
+          <h2>Your Choices &amp; Control</h2>
           <p>
-            You may review, update, or delete your account information at any time by logging into your account.
+            You’re in charge! You can review, update, or delete your account anytime by logging in.
           </p>
 
-          <h2>Changes to This Policy</h2>
+          <h2>Updates to This Policy</h2>
           <p>
-            We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page.
+            We may occasionally update this policy to reflect changes in our Services or regulations. If we do, we’ll post the revised version here—so you’re always informed.
           </p>
 
-          <h2>Contact Us</h2>
+          <h2>Got Questions?</h2>
           <p>
-            If you have any questions about this Privacy Policy, please contact us at privacy@avianobserver.com.
+            We’re here to help! If you have any concerns about your privacy, reach out to us at privacy@avianobserver.com.
+          </p>
+          <p>
+            Thanks for trusting Avian Observer—we’re honored to be part of your birding journey!
           </p>
         </CardContent>
       </Card>
